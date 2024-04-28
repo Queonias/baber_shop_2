@@ -1,5 +1,6 @@
 import About from "./About";
 import Footer from "./Footer";
+import Galeria from "./Galeria";
 import Navbar from "./Navbar";
 import Welcome from "./welcome";
 
@@ -15,8 +16,9 @@ export default function Layout({ children }) {
             <Navbar />
             <About />
             <Welcome />
-            <main className="main-container">{children}</main>
-            <Footer />
+            {/* <Galeria /> */}
+            {/* <main className="main-container">{children}</main> */}
+            {/* <Footer /> */}
         </>
     );
 }

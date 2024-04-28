@@ -1,6 +1,9 @@
 import Link from "next/link";
 import Image from "next/image";
 import styles from "../styles/Navbar.module.css";
+import { useState } from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faUser } from "@fortawesome/free-solid-svg-icons";
 
 export default function Navbar() {
     return (
@@ -25,6 +28,12 @@ export default function Navbar() {
                             <Link className={styles.link} href={`/about`}>Agende seu horário</Link>
                         </li>
                     </ul>
+                    <Link className={styles.btn} href={`/login/Signup`}>
+                        <button className={styles.user_icon_button}>
+
+                            <Image className={styles.imagem_user} src={`/images/user.png`} width="75" height="75" />
+                        </button>
+                    </Link>
                 </div>
             </nav>
             <div className={styles.inf}>

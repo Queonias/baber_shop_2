@@ -12,6 +12,22 @@
 
 }
 
+.user_icon_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 70px;
+    width: 63px;
+    height: 63px;
+    /* Adicionei a propriedade height para garantir que o botão tenha uma forma circular */
+    border-radius: 50%;
+    /* Alterei para 50% para garantir que o botão seja circular */
+    background-color: #FFF;
+    cursor: pointer;
+    /* Adicionado para mostrar a mãozinha ao passar o mouse */
+}
+
+
 .navbar_container {
     display: flex;
     background-color: rgba(0, 0, 0, 0.7);
@@ -47,6 +63,23 @@
 
 .link_items li {
     margin-right: 1.3em;
+}
+
+.user_icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 70px;
+    width: 63px;
+    border-radius: 100%;
+    background-color: #FFF;
+    /* color: brown; */
+}
+
+.imagem_user {
+    width: 42px;
+    height: 55px;
+    /* border-radius: 50%; */
 }
 
 .link {
